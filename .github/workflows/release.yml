@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: master
-      - run: echo "BUMP_VERSION=${github.event.inputs.logLevel#v}" >> $GITHUB_ENV
+      - run: echo "BUMP_VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
       - run: sed -i "/^\[package\]/,/^\[/{s/^version = \".*/version = \"$BUMP_VERSION\"/; t;}" Cargo.toml
       - run: sed -i "s|\(/releases/tag/\)v[0-9.]*|\1v$BUMP_VERSION|" README.md
       - run: sed -i "s|v[0-9.]*\.svg\([^)]*\)|v$BUMP_VERSION.svg\1|" README.md
