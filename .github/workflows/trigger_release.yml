@@ -11,13 +11,13 @@ on:
         required: true
 
 jobs:
-  make-bump-and-create-release:
+  make-bump-and-trigger-release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
         with:
           ref: master
-          ssh-key: "${{ secrets.COMMIT_KEY }}"
+          token: ${{secrets.ACTION_PAT}}
       - run: |
           VERSION="${{ github.event.inputs.version }}"
           VERSION="${VERSION#v}"
