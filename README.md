@@ -7,8 +7,8 @@
 
 *A Kitty terminal PDF viewer with Vim-like keybindings and classical GUI-like usage.*
 
-[![Latest release](https://img.shields.io/github/v/release/monoamine11231/meowpdf?label=Latest%20release&style=social)](https://github.com/monoamine11231/meowpdf/releases/tag/v1.2.7)
-[![GitHub commits](https://img.shields.io/github/commits-since/monoamine11231/meowpdf/v1.2.7.svg?style=social)](https://GitHub.com/monoamine11231/meowpdf/commit/)
+[![Latest release](https://img.shields.io/github/v/release/monoamine11231/meowpdf?label=Latest%20release&style=social)](https://github.com/monoamine11231/meowpdf/releases/tag/v1.2.8)
+[![GitHub commits](https://img.shields.io/github/commits-since/monoamine11231/meowpdf/v1.2.8.svg?style=social)](https://GitHub.com/monoamine11231/meowpdf/commit/)
 [![Stars](https://img.shields.io/github/stars/monoamine11231/meowpdf?style=social)](https://github.com/monoamine11231/meowpdf/stargazers)
 [![Fork](https://img.shields.io/github/forks/monoamine11231/meowpdf?style=social)](https://github.com/monoamine11231/meowpdf/network/members)
 [![Watchers](https://img.shields.io/github/watchers/monoamine11231/meowpdf?style=social)](https://github.com/monoamine11231/meowpdf/watchers)
@@ -68,7 +68,7 @@ The project is easily built and installed using Cargo:
 $ cargo build --release && cargo install --path .
 ```
 
-Another method is to download the pre-compiled binaries [here](https://github.com/monoamine11231/meowpdf/releases/tag/v1.2.7).
+Another method is to download the pre-compiled binaries [here](https://github.com/monoamine11231/meowpdf/releases/tag/v1.2.8).
 
 <div align="right"><kbd><a href="#table-of-contents">↑ Back to top ↑</a></kbd></div>
 <hr/>
